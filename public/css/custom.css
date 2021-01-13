@@ -1,0 +1,97 @@
+.btn-round{
+    border-radius: 50%;
+}
+.btn-add{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+}
+.hover-dark:hover{
+    background-color: rgb(178, 179, 180);
+}
+.hover-blue:hover{
+    background-color: rgb(172, 213, 255);
+}
+html, body {
+    margin: 0;
+  }
+.outer {
+    max-height: 60vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.inner {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.v-align{
+    vertical-align: middle;
+    margin-top: 7px;
+}
+.btn-text-align{
+    margin: 0 auto;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.status.CR{
+    background-color: rgb(255, 255, 168);
+}
+.status.R{
+    background-color: rgb(178, 236, 163);
+}
+.edit-btn{
+    background-color: transparent;
+    border: none;
+}
+.edit-btn:focus {outline:0;}
+
+#load {
+    border: 8px solid #bdbdbd;
+    border-top: 8px solid #5c5d5e; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1200ms linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.list-btn:hover{
+    cursor: pointer;
+}
+.pointer:hover{
+    cursor: pointer
+}
+
+
+
+
+
+
+
+
+
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: grey; 
+border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(109, 109, 109); 
+}
